@@ -7,28 +7,26 @@
 #### main class methods
 #### Method - parameters - parameter explanation
 
-- sleep ***seconds*** seconds to sleep
-- gen_hex ***hex_len***
-- sep_url ***url***
-- date_ ***res, format_str***
-- check_dir_exist ***dirname***
-- make_dirs ***path***
-- json_handle ***filename, data, open_option***
-- file_handle ***filename, open_option, data, reverse***
-- walk_path ***params***
-- replace_all ***params***
-- find_in ***params***
-- req ***params***
-- req_lines ***params***
-- regex ***params***
-- dl_file ***params***
-- thread_ ***params***
-- img_dl_threader ***params***
+- sleep (***seconds***) seconds to sleep
+- gen_hex (***hex_len***)
+- sep_url (***url***)
+- date_ (***res, format_str***)
+- check_dir_exist (***dirname***)
+- make_dirs (***path***)
+- json_handle (***filename, data, open_option***)
+- file_handle (***filename, data, open_option, reverse***)
+- walk_path (***path, method, exts***)
+- replace_all (***text, regex_patt***)
+- find_in (***needle, haystack***)
+- req (***url***)
+- req_lines (***url***)
+- regex (***regex_patt, search_str***)
+- dl_file (***url, filename, chunks***)
+- thread_ (***func, tup, threads***)
+- img_dl_threader (***data***)
 # in contention
-schema_init ***params***
-
+- schema_init (***root_folds***)
 
 ### Decorators
 - timeit
 - debug
-
