@@ -1,6 +1,6 @@
-# ** Goliath - Super Class Utility **
+# **Goliath - Super Class Utility**
 
-## _ Utility Super Classes making common operations more easily accessible _
+## _Utility Super Classes making common operations more easily accessible_
 
 ### Nexus - class that contains general methods for common operations
 
